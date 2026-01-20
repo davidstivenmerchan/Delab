@@ -1,3 +1,8 @@
 <Solution>
+  <Project Path="Delab.AccessData/Delab.AccessData.csproj" Id="ac55bacb-c492-48c4-b3a6-0115ccb9a5ed" />
+  <Project Path="Delab.AccessService/Delab.AccessService.csproj" Id="5989e99b-b56d-4eea-950e-8cecd094a877" />
   <Project Path="Delab.Backend/Delab.Backend.csproj" Id="df7b4e3b-e340-4b6b-92f4-73fa6e9dd9e9" />
+  <Project Path="Delab.Front/Delab.Front.csproj" Id="22b9f5bb-3357-4418-83fc-8f0b872922a9" />
+  <Project Path="Delab.Helpers/Delab.Helpers.csproj" Id="b7042534-870c-475e-a3a6-693868235d4d" />
+  <Project Path="Delab.Shared/Delab.Shared.csproj" Id="7b3dedcd-96db-4b59-aa61-6c7fceb7ab43" />
 </Solution>
