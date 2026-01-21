@@ -1,0 +1,12 @@
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\bin\Debug\net9.0\Delab.AccessService.deps.json
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\bin\Debug\net9.0\Delab.AccessService.dll
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\bin\Debug\net9.0\Delab.AccessService.pdb
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\obj\Debug\net9.0\Delab.AccessService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\obj\Debug\net9.0\Delab.AccessService.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\obj\Debug\net9.0\Delab.AccessService.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\obj\Debug\net9.0\Delab.AccessService.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\obj\Debug\net9.0\Delab.AccessService.sourcelink.json
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\obj\Debug\net9.0\Delab.AccessService.dll
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\obj\Debug\net9.0\refint\Delab.AccessService.dll
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\obj\Debug\net9.0\Delab.AccessService.pdb
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.AccessService\obj\Debug\net9.0\ref\Delab.AccessService.dll

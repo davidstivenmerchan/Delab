@@ -1,3 +1,6 @@
+using Delab.AccessData.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -37,6 +40,10 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
+
+builder.Services.AddDbContext<DataContext>(x => 
+    x.UseSqlServer("name=DefaultConnection",option=> option.MigrationsAssembly("Delab.Backend")));
+
 
 var app = builder.Build();
 

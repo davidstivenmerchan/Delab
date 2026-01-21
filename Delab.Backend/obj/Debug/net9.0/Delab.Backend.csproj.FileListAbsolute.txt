@@ -167,3 +167,7 @@ C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Backend\obj\D
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Backend\obj\Debug\net9.0\Delab.Backend.pdb
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Backend\obj\Debug\net9.0\Delab.Backend.genruntimeconfig.cache
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Backend\obj\Debug\net9.0\ref\Delab.Backend.dll
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Backend\bin\Debug\net9.0\Delab.AccessData.dll
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Backend\bin\Debug\net9.0\Delab.AccessData.pdb
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Backend\bin\Debug\net9.0\Delab.Shared.dll
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Backend\bin\Debug\net9.0\Delab.Shared.pdb

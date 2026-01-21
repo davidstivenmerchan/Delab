@@ -1,0 +1,12 @@
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\bin\Debug\net9.0\Delab.Shared.deps.json
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\bin\Debug\net9.0\Delab.Shared.dll
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\bin\Debug\net9.0\Delab.Shared.pdb
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\obj\Debug\net9.0\Delab.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\obj\Debug\net9.0\Delab.Shared.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\obj\Debug\net9.0\Delab.Shared.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\obj\Debug\net9.0\Delab.Shared.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\obj\Debug\net9.0\Delab.Shared.sourcelink.json
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\obj\Debug\net9.0\Delab.Shared.dll
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\obj\Debug\net9.0\refint\Delab.Shared.dll
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\obj\Debug\net9.0\Delab.Shared.pdb
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Shared\obj\Debug\net9.0\ref\Delab.Shared.dll
