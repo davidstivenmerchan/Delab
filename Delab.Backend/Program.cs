@@ -1,11 +1,13 @@
 using Delab.AccessData.Data;
+using Delab.Backend.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen(c =>
@@ -41,11 +43,26 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+builder.Services.AddTransient<SeedDb>();
+
 builder.Services.AddDbContext<DataContext>(x => 
     x.UseSqlServer("name=DefaultConnection",option=> option.MigrationsAssembly("Delab.Backend")));
 
 
 var app = builder.Build();
+
+SeedData(app);
+
+void SeedData(WebApplication app)
+{
+    IServiceScopeFactory? scopedFactory = app.Services.GetService<IServiceScopeFactory>();
+
+    using (IServiceScope? scope = scopedFactory!.CreateScope())
+    {
+        SeedDb? service = scope.ServiceProvider.GetService<SeedDb>();
+        service!.SeedAsync().Wait();
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Delab.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32f5fd9ba76913aa5e5e3f503e79eb091e1fa0fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c703b5f3df352e721717c09caec24433529aea8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Delab.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Delab.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
