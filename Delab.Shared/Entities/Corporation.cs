@@ -1,0 +1,70 @@
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Delab.Shared.Entities;
+
+public class Corporation
+{
+    [Key]
+    public int CorporationId { get; set; }
+
+    [Display(Name = "Logo")]
+    public string? Imagen { get; set; }
+
+    [MaxLength(100, ErrorMessage = "El campo {0} debe tener máximo {1} caracteres.")]
+    [Required(ErrorMessage = "El campo {0} es obligatorio.")]
+    [Display(Name = "Empresa/Persona")]
+    public string? Name { get; set; }
+
+    [MaxLength(15, ErrorMessage = "El campo {0} debe tener máximo {1} caracteres.")]
+    [Required(ErrorMessage = "El campo {0} es obligatorio.")]
+    [Display(Name = "RUC o DNI")]
+    public string? NroDocument { get; set; }
+
+    [MaxLength(12, ErrorMessage = "El campo {0} debe tener máximo {1} caracteres.")]
+    [Required(ErrorMessage = "El campo {0} es obligatorio.")]
+    [Display(Name = "Teléfono")]
+    [DataType(DataType.PhoneNumber)]
+    public string? Phone { get; set; }
+
+    [MaxLength(200, ErrorMessage = "El campo {0} debe tener máximo {1} caracteres.")]
+    [Required(ErrorMessage = "El campo {0} es obligatorio.")]
+    [Display(Name = "Dirección")]
+    public string? Address { get; set; }
+
+    [Display(Name = "País")]
+    public int CountryId { get; set; }
+
+    [Required(ErrorMessage = "El campo {0} es obligatorio.")]
+    [Display(Name = "Plan de Software")]
+    public int SoftPlanId { get; set; }
+
+    [Required(ErrorMessage = "El {0} es Obligatorio")]
+    [DataType(DataType.Date)]
+    [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+    [Display(Name = "Inicio")]
+    public DateTime DateStart { get; set; }
+
+    [Required(ErrorMessage = "El {0} es Obligatorio")]
+    [DataType(DataType.Date)]
+    [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+    [Display(Name = "Vencimiento")]
+    public DateTime DateEnd { get; set; }
+
+    [Display(Name = "Activo")]
+    public bool Active { get; set; }
+
+    //Propiedad Virtual de Imagen
+    public string ImageFullPath => Imagen == string.Empty || Imagen == null
+        ? $"https://localhost:7193/Images/NoImage.png"
+        : $"https://localhost:7193/Images/ImgCorporation/{Imagen}";
+
+    [NotMapped]
+    public string? ImgBase64 { get; set; }
+
+    //Relaciones
+    public SoftPlan? SoftPlan { get; set; }
+    public Country? Country { get; set; }
+
+    public ICollection<Manager>? Managers { get; set; }
+}

@@ -1,11 +1,15 @@
 ﻿using Delab.AccessData.Data;
 using Delab.Shared.Entities;
+using Delab.Shared.Enum;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Delab.Backend.Controllers;
 
 [Route("api/countries")]
+[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
 [ApiController]
 public class CountriesController : ControllerBase
 {
@@ -16,6 +20,7 @@ public class CountriesController : ControllerBase
         _context = context;
     }
 
+    [AllowAnonymous]
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Country>>> GetCountries()
     {

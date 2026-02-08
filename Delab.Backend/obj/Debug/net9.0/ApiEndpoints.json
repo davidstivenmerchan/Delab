@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "Delab.Backend.Controllers.AccountsController",
+    "Method": "Login",
+    "RelativePath": "api/accounts/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Delab.Shared.ResponsesSec.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Delab.Backend.Controllers.CitiesController",
     "Method": "GetCities",
     "RelativePath": "api/cities",
@@ -104,6 +120,90 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Delab.Backend.Controllers.CorporationsController",
+    "Method": "PutAsync",
+    "RelativePath": "api/corporations",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Delab.Shared.Entities.Corporation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.CorporationsController",
+    "Method": "PostAsync",
+    "RelativePath": "api/corporations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Delab.Shared.Entities.Corporation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Delab.Shared.Entities.Corporation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.CorporationsController",
+    "Method": "GetOneAsync",
+    "RelativePath": "api/corporations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Delab.Shared.Entities.Corporation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.CorporationsController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/corporations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Delab.Backend.Controllers.CountriesController",
     "Method": "GetCountries",
     "RelativePath": "api/countries",
@@ -201,6 +301,158 @@
     "Parameters": [
       {
         "Name": "idCountry",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.ManagersController",
+    "Method": "PutAsync",
+    "RelativePath": "api/managers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Delab.Shared.Entities.Manager",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.ManagersController",
+    "Method": "PostAsync",
+    "RelativePath": "api/managers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Delab.Shared.Entities.Manager",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Delab.Shared.Entities.Manager",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.ManagersController",
+    "Method": "GetOneAsync",
+    "RelativePath": "api/managers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Delab.Shared.Entities.Manager",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.SoftPlansController",
+    "Method": "PutAsync",
+    "RelativePath": "api/softplans",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Delab.Shared.Entities.SoftPlan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.SoftPlansController",
+    "Method": "PostAsync",
+    "RelativePath": "api/softplans",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Delab.Shared.Entities.SoftPlan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Delab.Shared.Entities.SoftPlan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.SoftPlansController",
+    "Method": "GetOneAsync",
+    "RelativePath": "api/softplans/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Delab.Shared.Entities.SoftPlan",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Delab.Backend.Controllers.SoftPlansController",
+    "Method": "DeleteAAsync",
+    "RelativePath": "api/softplans/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }

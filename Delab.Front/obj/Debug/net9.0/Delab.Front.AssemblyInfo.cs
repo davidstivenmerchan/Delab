@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Delab.Front")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c477285d30fa2e254acd2b07aa6f62128b81ae2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43fc05fb3e8e47ad1b2738d10c2e36d0c65ee385")]
 [assembly: System.Reflection.AssemblyProductAttribute("Delab.Front")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Delab.Front")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

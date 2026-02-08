@@ -200,8 +200,8 @@ C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Deb
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\segmentation-rules.json
-C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\Delab.Front.76hhi8ttf8.wasm
-C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\Delab.Front.htoxbb41pl.pdb
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\Delab.Front.f4ojiu49w2.wasm
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\Delab.Front.0qxaei9upp.pdb
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.esv38zo127.wasm.gz
@@ -405,8 +405,8 @@ C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Deb
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\segmentation-rules.json.gz
-C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\Delab.Front.76hhi8ttf8.wasm.gz
-C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\Delab.Front.htoxbb41pl.pdb.gz
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\Delab.Front.f4ojiu49w2.wasm.gz
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\Delab.Front.0qxaei9upp.pdb.gz
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\Delab.Front.staticwebassets.runtime.json
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\bin\Debug\net9.0\Delab.Front.staticwebassets.endpoints.json
@@ -1073,9 +1073,9 @@ C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Deb
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\compressed\ktpjo42gmd-{0}-tptq2av103-tptq2av103.gz
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\compressed\ku59n0icqg-{0}-lfu7j35m59-lfu7j35m59.gz
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\compressed\ie7r67zi35-{0}-ec9yy67949-ec9yy67949.gz
-C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\compressed\0kz1x00mlm-{0}-76hhi8ttf8-76hhi8ttf8.gz
-C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\compressed\z8vars61tc-{0}-htoxbb41pl-htoxbb41pl.gz
-C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\compressed\c0g66qugjh-{0}-hx1jgunpi2-hx1jgunpi2.gz
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\compressed\0kz1x00mlm-{0}-f4ojiu49w2-f4ojiu49w2.gz
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\compressed\z8vars61tc-{0}-0qxaei9upp-0qxaei9upp.gz
+C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\compressed\c0g66qugjh-{0}-gdj47cv22a-gdj47cv22a.gz
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\USUARIO\Desktop\cursos\Curso Blazor Imedical\Delabb\Delab.Front\obj\Debug\net9.0\staticwebassets.development.json

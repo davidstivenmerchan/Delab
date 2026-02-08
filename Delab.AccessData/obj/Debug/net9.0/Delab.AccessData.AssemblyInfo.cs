@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Delab.AccessData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32f5fd9ba76913aa5e5e3f503e79eb091e1fa0fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43fc05fb3e8e47ad1b2738d10c2e36d0c65ee385")]
 [assembly: System.Reflection.AssemblyProductAttribute("Delab.AccessData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Delab.AccessData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

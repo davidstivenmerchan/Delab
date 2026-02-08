@@ -1,5 +1,10 @@
 using Delab.AccessData.Data;
 using Delab.Backend.Data;
+using Delab.Helpers;
+using Delab.Shared.Entities;
+using Delab.Shared.ResponsesSec;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
@@ -43,11 +48,48 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+
+
+builder.Services.AddDbContext<DataContext>(x =>
+    x.UseSqlServer("name=DefaultConnection", option => option.MigrationsAssembly("Delab.Backend")));
+
+builder.Services.AddIdentity<User, IdentityRole>(cfg =>
+{
+    cfg.Tokens.AuthenticatorTokenProvider = TokenOptions.DefaultAuthenticatorProvider;
+    cfg.SignIn.RequireConfirmedEmail = true;
+
+    cfg.User.RequireUniqueEmail = true;
+    cfg.Password.RequireDigit = false;
+    cfg.Password.RequiredUniqueChars = 0;
+    cfg.Password.RequireLowercase = false;
+    cfg.Password.RequireNonAlphanumeric = false;
+    cfg.Password.RequireUppercase = false;
+
+    cfg.Lockout.MaxFailedAccessAttempts = 3;
+    cfg.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+    cfg.Lockout.AllowedForNewUsers = true;
+}).AddDefaultTokenProviders()
+  .AddEntityFrameworkStores<DataContext>();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddCookie()
+    .AddJwtBearer(x => x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    {
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(builder.Configuration["jwtKey"]!)),
+        ClockSkew = TimeSpan.Zero
+    });
+
+
+builder.Services.Configure<SendGridSettings>(builder.Configuration.GetSection("SendGrid"));
+
 builder.Services.AddTransient<SeedDb>();
-
-builder.Services.AddDbContext<DataContext>(x => 
-    x.UseSqlServer("name=DefaultConnection",option=> option.MigrationsAssembly("Delab.Backend")));
-
+builder.Services.AddScoped<IUtilityTools, UtilityTools>();
+builder.Services.AddScoped<IUserHelper, UserHelper>();
+builder.Services.AddScoped<IFileStorage, FileStorage>();
 
 var app = builder.Build();
 
