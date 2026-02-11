@@ -3,6 +3,9 @@ build_property.EnableAotAnalyzer =
 build_property.EnableSingleFileAnalyzer = 
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudAllowedAttributeList = 
 build_property.TargetFramework = net9.0
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v9.0
@@ -30,6 +33,22 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Pages/Auth/ChangePassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxDaGFuZ2VQYXNzd29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Pages/Auth/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Pages/Auth/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Pages/CorporationPage/IndexCorporation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29ycG9yYXRpb25QYWdlXEluZGV4Q29ycG9yYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,8 +57,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Pages/ManagerPage/IndexManager.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlclBhZ2VcSW5kZXhNYW5hZ2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Pages/SoftPlanPage/IndexSoftPlan.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29mdFBsYW5QYWdlXEluZGV4U29mdFBsYW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Shared/AuthLinks.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEF1dGhMaW5rcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Shared/FilterComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZpbHRlckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Shared/GenericList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdlbmVyaWNMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Shared/Loading.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvYWRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/Shared/Pagination.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhZ2luYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/USUARIO/Desktop/cursos/Curso Blazor Imedical/Delabb/Delab.Front/_Imports.razor]

@@ -3,6 +3,8 @@ using Delab.Helpers;
 using Delab.Shared.Entities;
 using Delab.Shared.Enum;
 using Delab.Shared.ResponsesSec;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -128,28 +130,28 @@ public class AccountsController : ControllerBase
     //    return BadRequest(result.Errors.FirstOrDefault()!.Description);
     //}
 
-    //[HttpPost("changePassword")]
-    //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-    //public async Task<IActionResult> ChangePasswordAsync(ChangePasswordDTO model)
-    //{
-    //    if (!ModelState.IsValid)
-    //    {
-    //        return BadRequest(ModelState);
-    //    }
-    //    var user = await _userHelper.GetUserAsync(User.Identity!.Name!);
-    //    if (user == null)
-    //    {
-    //        return NotFound();
-    //    }
+    [HttpPost("changePassword")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    public async Task<IActionResult> ChangePasswordAsync(ChangePasswordDTO model)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        var user = await _userHelper.GetUserAsync(User.Identity!.Name!);
+        if (user == null)
+        {
+            return NotFound();
+        }
 
-    //    var result = await _userHelper.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
-    //    if (!result.Succeeded)
-    //    {
-    //        return BadRequest(result.Errors.FirstOrDefault()!.Description);
-    //    }
+        var result = await _userHelper.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+        if (!result.Succeeded)
+        {
+            return BadRequest(result.Errors.FirstOrDefault()!.Description);
+        }
 
-    //    return NoContent();
-    //}
+        return NoContent();
+    }
 
     //[HttpGet("ConfirmEmail")]
     //public async Task<IActionResult> ConfirmEmailAsync(string userId, string token)

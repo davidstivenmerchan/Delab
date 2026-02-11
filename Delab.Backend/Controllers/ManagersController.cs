@@ -1,7 +1,9 @@
 ﻿using Delab.AccessData.Data;
+using Delab.Backend.helpers;
 using Delab.Helpers;
 using Delab.Shared.Entities;
 using Delab.Shared.Enum;
+using Delab.Shared.Pagination;
 using Delab.Shared.Responses;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -34,19 +36,19 @@ public class ManagersController : ControllerBase
         ImgRoute = "wwwroot\\Images\\ImgManager";
     }
 
-    //[HttpGet]
-    //public async Task<ActionResult<IEnumerable<Manager>>> GetAsync([FromQuery] PaginationDTO pagination)
-    //{
-    //    var queryable = _context.Managers.Include(x => x.Corporation).AsQueryable();
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Manager>>> GetAsync([FromQuery] PaginationDTO pagination)
+    {
+        var queryable = _context.Managers.Include(x => x.Corporation).AsQueryable();
 
-    //    if (!string.IsNullOrWhiteSpace(pagination.Filter))
-    //    {
-    //        queryable = queryable.Where(x => x.FullName!.ToLower().Contains(pagination.Filter.ToLower()));
-    //    }
+        if (!string.IsNullOrWhiteSpace(pagination.Filter))
+        {
+            queryable = queryable.Where(x => x.FullName!.ToLower().Contains(pagination.Filter.ToLower()));
+        }
 
-    //    await HttpContext.InsertParameterPagination(queryable, pagination.RecordsNumber);
-    //    return await queryable.OrderBy(x => x.FullName).Paginate(pagination).ToListAsync();
-    //}
+        await HttpContext.InsertParameterPagination(queryable, pagination.RecordsNumber);
+        return await queryable.OrderBy(x => x.FullName).Paginate(pagination).ToListAsync();
+    }
 
     [HttpGet("{id}")]
     public async Task<ActionResult<Manager>> GetOneAsync(int id)

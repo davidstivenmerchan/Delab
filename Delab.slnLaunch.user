@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "Delab.Backend\\Delab.Backend.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Delab.Front\\Delab.Front.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
